@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d726eb24227719c7960ad627e22e8ee, type: 3}
+  m_Name: SideQuestRewardsDataSofiaTest
+  m_EditorClassIdentifier: 
+  RewardsData:
+  - id: 1
+    icon: {fileID: 21300000, guid: e8afc239b9a8b44179b813aaba6574bf, type: 3}
+    mapX: 23.34022
+    mapY: 42.64953
+  - id: 2
+    icon: {fileID: 21300000, guid: 7cb3b4f07e77c1740a325516f63d660a, type: 3}
+    mapX: 23.34246
+    mapY: 42.651
+  - id: 3
+    icon: {fileID: 21300000, guid: 7a155a6fbd3a2a25c80c02a9cc58b4c0, type: 3}
+    mapX: 23.341
+    mapY: 42.647
+  - id: 4
+    icon: {fileID: 21300000, guid: b85cfb0dc38144798b88afb0e690fcb5, type: 3}
+    mapX: 23.341
+    mapY: 42.647
+  - id: 5
+    icon: {fileID: 21300000, guid: 10c02757b6f7042c394942d10ea638e3, type: 3}
+    mapX: 23.341
+    mapY: 42.647
+  - id: 6
+    icon: {fileID: 21300000, guid: 53b747bd71cfe0a198571b325ffc0460, type: 3}
+    mapX: 23.341
+    mapY: 42.647
+  - id: 7
+    icon: {fileID: 21300000, guid: bd1b59e7a5416131c8237abbaed789bb, type: 3}
+    mapX: 23.341
+    mapY: 42.647
+  - id: 8
+    icon: {fileID: 21300000, guid: b2810586fb5674bc98912f9407a4df13, type: 3}
+    mapX: 23.341
+    mapY: 42.647
+  - id: 9
+    icon: {fileID: 21300000, guid: 42d9489d6317e192d8b19f0f8616c8b2, type: 3}
+    mapX: 23.341
+    mapY: 42.647
+  - id: 10
+    icon: {fileID: 21300000, guid: babc06e02f2177f3287dc7855d7491b9, type: 3}
+    mapX: 23.341
+    mapY: 42.647
+  - id: 10
+    icon: {fileID: 21300000, guid: babc06e02f2177f3287dc7855d7491b9, type: 3}
+    mapX: 23.341
+    mapY: 42.647

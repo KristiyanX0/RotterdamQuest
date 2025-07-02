@@ -88,8 +88,8 @@ public class MapFollowPlayer : MonoBehaviour
         }
         else if (LocationChoice == 5) // FMI
         {
-            bottomLeftGPS = new Vector2(23.326639f, 42.677222f); // Bottom-left corner (longitude, latitude)
-            topRightGPS = new Vector2(23.335972f, 42.671500f);   // Top-right corner (longitude, latitude)
+            bottomLeftGPS = new Vector2(23.327722f, 42.672000f); // Bottom-left corner (longitude, latitude)
+            topRightGPS = new Vector2(23.334333f, 42.676833f);   // Top-right corner (longitude, latitude)
         }
         else
         {

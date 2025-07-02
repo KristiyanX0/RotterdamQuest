@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using CandyCoded.HapticFeedback;
+using Solo.MOST_IN_ONE;
 
-[DefaultExecutionOrder(-100)]  // ensure this runs early
+[DefaultExecutionOrder(-100)]
 public class ButtonVibrationManager : MonoBehaviour
 {
     private static ButtonVibrationManager _instance;
@@ -33,7 +33,7 @@ public class ButtonVibrationManager : MonoBehaviour
 
     private void SubscribeAllButtons()
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID || UNITY_IOS // Добра практика е да работи и на iOS
         // Find all Buttons in the active scene
         Button[] buttons = FindObjectsOfType<Button>(true);
         foreach (var btn in buttons)
@@ -48,7 +48,7 @@ public class ButtonVibrationManager : MonoBehaviour
 
     private void HandleVibration()
     {
-        HapticFeedback.MediumFeedback();
+        Most_HapticFeedback.Generate(Most_HapticFeedback.HapticTypes.SoftImpact);
     }
 
     void OnDestroy()

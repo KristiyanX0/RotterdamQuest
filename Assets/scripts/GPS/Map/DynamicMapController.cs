@@ -16,7 +16,7 @@ public class DynamicMapController : MonoBehaviour
 
     // City choice for debugging purposes:
     // 0: Rotterdam Center, 1: Studentski grad, 2: Rotterdam-West, 3: Plovdiv, 4: Plovdiv 2
-    public int cityChoice = 0;
+    public int LocationChoice = 0;
 
     // GPS and zoom settings
     public float minZoom { get; private set; }
@@ -58,34 +58,39 @@ public class DynamicMapController : MonoBehaviour
 
     void SetCityGPSBounds()
     {
-        if (cityChoice == 0) // Rotterdam Center
+        if (LocationChoice == 0) // Rotterdam Center
         {
             bottomLeftGPS = new Vector2(4.4619188983712155f, 51.907064240306546f);
             topRightGPS = new Vector2(4.494258011211837f, 51.927907343742206f);
         }
-        else if (cityChoice == 1) // Studentski grad
+        else if (LocationChoice == 1) // Studentski grad
         {
             bottomLeftGPS = new Vector2(23.336951f, 42.644877f);
             topRightGPS = new Vector2(23.345809f, 42.654092f);
         }
-        else if (cityChoice == 2) // Rotterdam-West
+        else if (LocationChoice == 2) // Rotterdam-West
         {
             bottomLeftGPS = new Vector2(4.409512f, 51.911768f);
             topRightGPS = new Vector2(4.434574f, 51.922912f);
         }
-        else if (cityChoice == 3) // Plovdiv
+        else if (LocationChoice == 3) // Plovdiv
         {
             bottomLeftGPS = new Vector2(24.743331f, 42.126500f);
             topRightGPS = new Vector2(24.751009f, 42.131064f);
         }
-        else if (cityChoice == 4) // Plovdiv 2
+        else if (LocationChoice == 4) // Plovdiv 2
         {
             bottomLeftGPS = new Vector2(24.726873f, 42.135300f);
             topRightGPS = new Vector2(24.739490f, 42.123078f);
         }
+        else if (LocationChoice == 5) // FMI
+        {
+            bottomLeftGPS = new Vector2(23.326639f, 42.677222f); // Bottom-left corner (longitude, latitude)
+            topRightGPS = new Vector2(23.335972f, 42.671500f);   // Top-right corner (longitude, latitude)
+        }
         else
         {
-            Debug.LogWarning("Invalid cityChoice selected. Defaulting to Rotterdam Center.");
+            Debug.LogWarning("Invalid LocationChoice selected. Defaulting to Rotterdam Center.");
             bottomLeftGPS = new Vector2(4.4619188983712155f, 51.907064240306546f);
             topRightGPS = new Vector2(4.494258011211837f, 51.927907343742206f);
         }

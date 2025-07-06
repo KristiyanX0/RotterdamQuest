@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/IN_GAME_BEFORE_BATTLE.unity
     guid: 83fc68cd3c776e642ae721766ed79841
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: fd32496bd26cefe3ba99c3d7e5357c11
+  - enabled: 1
     path: Assets/Scenes/AR/AR test.unity
     guid: d05d2070183caebb7a50b410ef873202
   - enabled: 1

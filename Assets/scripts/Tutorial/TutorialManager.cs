@@ -10,6 +10,8 @@ using System.Linq;
 // use Action Queue -> 
 // Event Based -> 
 
+
+// NOT USED - TutorialManagerQueue is used instead
 public class TutorialManager : MonoBehaviour
 {
     public List<TutorialData> dataX; // Assign in Inspector

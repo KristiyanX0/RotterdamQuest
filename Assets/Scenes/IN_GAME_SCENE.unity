@@ -29672,7 +29672,7 @@ MonoBehaviour:
   playerPinRectTransform: {fileID: 1705627717}
   playerOffsetY: 0
   playerOffsetX: 0
-  LocationChoice: 1
+  LocationChoice: 0
   bottomLeftGPS: {x: 0, y: 0}
   topRightGPS: {x: 0, y: 0}
   mapSize: {x: 0, y: 0}

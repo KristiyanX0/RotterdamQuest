@@ -46,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 1.  Clone the repo.
 2.  Open the project in Unity Hub.
 3.  Unity will download and install the necessary packages.
-4.  Set the aspect ratio to 1080:2400 in your build settings. 
+4.  **Set the aspect ratio to 1080:2400 in your build settings!!!** 
 5.  Build for your target device (Android).
 
 **NOTE: If you don't set the correct aspect ratio, the UI elements will appear stretched.**
